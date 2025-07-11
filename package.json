@@ -11,12 +11,14 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
+    "sweetalert2": "^11.22.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "electron",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "react-start": "cd app && npm start",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
